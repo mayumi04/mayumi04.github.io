@@ -1,0 +1,63 @@
+h1 {
+    font-size: 50px;
+    color: steelblue;
+    text-align: center;
+    background-color: powderblue;
+    height: 70px;
+}
+
+.content {
+    background-color: snow;
+    padding: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: midnightblue;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    border: solid 1px #a5d1f1;
+  }
+
+th {
+    background-color: #d0ebfd;
+  }
+
+img {
+    border-radius: 10px;
+}
+
+.hov:hover{
+    background-color:tomato;
+  }
+
+a {
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* 500px以下の画面で適用 */
+@media only screen and (max-width: 500px) {
+    .mobile-blocky tr,
+    .mobile-blocky th,
+    .mobile-blocky td {
+      display: block; /* セルを縦に */
+      border: none; /* 線をリセット */
+    }
+    /* 以下で線を再設定 */
+    .mobile-blocky {
+      border: solid 2px #a5d1f1;
+      border-top: none;
+    }
+    .mobile-blocky th {
+      border-top: solid 2px #a5d1f1;
+    }
+    .mobile-blocky td {
+      border-top: dashed 1px #a5d1f1;
+    }
+  }
